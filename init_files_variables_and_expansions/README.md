@@ -3,4 +3,4 @@
 This directory contains shell scripts that cover initialization files, variables, and expansions.
 
 ## 0-alias
-A shell script that creates an alias named `ls` with the value `rm -f *`.
+a script that prints hello user, where user is the current Linux user.
