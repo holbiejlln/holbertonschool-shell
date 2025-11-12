@@ -3,4 +3,4 @@
 This directory contains shell scripts that cover initialization files, variables, and expansions.
 
 ## 0-alias
-a script that prints hello user, where user is the current Linux user.
+adding /action to the PATH. /action.
