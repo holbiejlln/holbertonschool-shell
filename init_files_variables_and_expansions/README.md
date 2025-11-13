@@ -3,4 +3,4 @@
 This directory contains shell scripts that cover initialization files, variables, and expansions.
 
 ## 0-alias
-a scripthat  count num of directories in the PATH
+a scripthatpower divided by divide 
