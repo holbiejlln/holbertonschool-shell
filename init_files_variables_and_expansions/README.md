@@ -3,4 +3,4 @@
 This directory contains shell scripts that cover initialization files, variables, and expansions.
 
 ## 0-alias
-a scripthatpower divided by divide 
+a power love to breath 
