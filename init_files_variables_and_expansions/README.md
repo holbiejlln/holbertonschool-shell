@@ -3,4 +3,4 @@
 This directory contains shell scripts that cover initialization files, variables, and expansions.
 
 ## 0-alias
-ia power love to breath 
+script that converts a number from base 2 to base 10.
