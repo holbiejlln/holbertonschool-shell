@@ -1,3 +1,2 @@
-#!/bin/bash:
+#!/bin/bashiiii:
 echo "$((2#$BINARY))"
-
