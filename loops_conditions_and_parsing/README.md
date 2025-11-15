@@ -1,8 +1,7 @@
 
 ---
 
-### ✏ How to create it using `vi`:
-
-1. Open the file:
+### ✏ How
+2. Open the file:best school 1o tm
    ```bash
    vi README.md
