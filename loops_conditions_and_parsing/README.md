@@ -1,6 +1,6 @@
 # Best School Script
 
-This Bash script prints "Best School" 10 times using a `while` loop.
+This Bash script prints "Best School" 10 times using a `until` loop.
 
 ## How to Run
 
