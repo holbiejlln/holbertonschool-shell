@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script lists files in the current directory without hidden ones
+# and shows only the part after the first dash in their names.
+
+for file in *; do
+  # Skip directories or files without dash
+  if [ -f "$file" ]; then
+    # Remove everything up to first dash
+    new_name="${file#*-}"
+    echo "$new_name"
+  fi
+done
