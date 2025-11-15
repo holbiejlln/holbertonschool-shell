@@ -1,17 +1,15 @@
-# 5. Bad Luck for 4, Good Luck for 8
+# 6. Bad Luck Advanced
 
-This Bash script loops from 1 to 10 and displays a different message based on the iteration number:
+This script prints numbers from 1 to 20.  
+For numbers 4, 9, and 17, it prints special messages:
 
-- Prints **"bad luck"** on the 4th iteration  
-- Prints **"good luck"** on the 8th iteration  
-- Prints **"Best School"** on all other iterations  
+- 4 → bad luck from China  
+- 9 → bad luck from Japan  
+- 17 → bad luck from Italy  
 
-It demonstrates the use of `while` loops with `if`, `elif`, and `else` statements in Bash.
-
-## Usage
-
-1. Make the script executable:
+## How to Run
 
 ```bash
-chmod +x 5-4_bad_luck_8_is_your_chance
+chmod +x 6-bad_luck_advanced
+./6-bad_luck_advanced
 
