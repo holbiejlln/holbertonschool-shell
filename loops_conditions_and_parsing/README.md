@@ -1,15 +1,13 @@
 # 6. Bad Luck Advanced
 
-This script prints numbers from 1 to 20.  
-For numbers 4, 9, and 17, it prints special messages:
+Write a Bash script that displays the time for 12 hours and 59 minutes:
 
-- 4 → bad luck from China  
-- 9 → bad luck from Japan  
-- 17 → bad luck from Italy  
+display hours from 0 to 12
+display minutes from 1 to 59
+ 
 
 ## How to Run
 
 ```bash
-chmod +x 6-bad_luck_advanced
-./6-bad_luck_advanced
+chmod +x 
 
