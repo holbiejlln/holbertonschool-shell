@@ -1,10 +1,7 @@
-# 10-fizzbuzz
+# 12-tell_the_story_of_passwd
 
-This script prints isplays the following information from each line of `/etc/passwd`:
+This Bash script reads the `/etc/passwd` file and prints a formatted "story" for each user.
 
-- Username
-- User ID
-- Home directory
  
 
 ## How to Run
