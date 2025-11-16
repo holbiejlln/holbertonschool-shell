@@ -1,10 +1,6 @@
-# 0-what-is-my-pid
-
-This Bash script displays a list of currently running processes.
+# 0-w3-show_your_bash_pid_made_easy
+Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 
 Requirements:
 
-Must show all processes, for all users, including those which might not have a TTY
-Display in a user-oriented format
-Show process hierarchy.
-
+You cannot use ps
