@@ -1,7 +1,18 @@
 # 13-lets_parse_apache_logs
 
-This Bash script parses an Apache access log and displays each visitor's IP address along with the HTTP status code.
- 
+Now that you’ve parsed the Apache log file, let’s sort the data so you can get a better idea of what is going on.
+
+Using what you did in the previous exercise, write a Bash script that groups visitors by IP and HTTP status code, and displays this data.
+
+Requirements:
+
+The exact format must be:
+OCCURENCE_NUMBER IP HTTP_CODE
+In list format
+Ordered from the greatest to the lowest number of occurrences
+See example
+You must use awk
+You are not allowed to use while, for, until and cut 
 
 ## How to Run
 
