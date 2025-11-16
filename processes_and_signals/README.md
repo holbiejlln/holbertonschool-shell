@@ -1,8 +1,3 @@
-# 0-2. Show your Bash PID
+# 08. Beheaded process
 mandatory
-Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
-
-Requirements:
-
-You cannot use pgrep
-The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error here)l
+Write a Bash script that kills the process 7-highlander.
