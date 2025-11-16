@@ -1,7 +1,6 @@
-# 12-tell_the_story_of_passwd
+# 13-lets_parse_apache_logs
 
-This Bash script reads the `/etc/passwd` file and prints a formatted "story" for each user.
-
+This Bash script parses an Apache access log and displays each visitor's IP address along with the HTTP status code.
  
 
 ## How to Run
