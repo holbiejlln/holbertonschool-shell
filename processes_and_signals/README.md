@@ -1,8 +1,8 @@
-# 0-9.process 
-Write a Bash script that:
+# 0-2. Show your Bash PID
+mandatory
+Using your previous exercise command, write a Bash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
 
-Creates the file /var/run/myscript.pid containing its PID
-Displays To infinity and beyond indefinitely
-Displays I hate the kill command when receiving a SIGTERM signal
-Displays Y U no love me?! when receiving a SIGINT signal
-Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
+Requirements:
+
+You cannot use pgrep
+The third line of your script must be # shellcheck disable=SC2009 (for more info about ignoring shellcheck error here)l
