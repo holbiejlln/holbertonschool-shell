@@ -1,11 +1,11 @@
 # 10-fizzbuzz
 
-This script prints numbers from 1 to 100. For each number:
+This script prints isplays the following information from each line of `/etc/passwd`:
 
-- "FizzBuzz" is printed if divisible by both 3 and 5.
-- "Fizz" if divisible by 3.
-- "Buzz" if divisible by 5.
-- Otherwise, the number itself is printed. 
+- Username
+- User ID
+- Home directory
+ 
 
 ## How to Run
 
