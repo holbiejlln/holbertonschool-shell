@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# manage_my_process betiğini yönetir.
+
+# Yapılandırma
+PROCESS_NAME="manage_my_process"
+PID_FILE="/var/run/${PROCESS_NAME}.pid"
+SCRIPT_PATH="./${PROCESS_NAME}"
+
+# İşlev: Süreci Durdur
+stop_process() {
+    if [ -f "$PID_FILE" ]; then
+        PID=$(cat "$PID_FILE")
+        # Sürece sonlandırma sinyali (SIGTERM) gönder
+        kill -s TERM "$PID" 2>/dev/null
+        # PID dosyasını sil
+        rm -f "$PID_FILE"
+        echo "${PROCESS_NAME} stopped"
+    else
+        echo "${PROCESS_NAME} stopped"
+    fi
+}
+
+# İşlev: Süreci Başlat
+start_process() {
+    # Arka planda başlat, çıktıları görmezden gel ve PID'yi dosyaya yaz
+    nohup "$SCRIPT_PATH" >/dev/null 2>&1 &
+    echo $! > "$PID_FILE"
+    echo "${PROCESS_NAME} started"
+}
+
+# Ana Mantık
+case "$1" in
+    start)
+        start_process
+        ;;
+    stop)
+        stop_process
+        ;;
+    restart)
+        stop_process
+        start_process
+        echo "${PROCESS_NAME} restarted"
+        ;;
+    *)
+        # Yanlış kullanım mesajı
+        echo "Usage: ${PROCESS_NAME} {start|stop|restart}"
+        exit 1
+esac
+
+exit 0
