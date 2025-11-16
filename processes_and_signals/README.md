@@ -1,8 +1,8 @@
-# 0-7. Highlander
-mandatory
-Write a Bash script that displays:
+# 0-9.process 
+Write a Bash script that:
 
-To infinity and beyond indefinitely
-With a sleep 2 in between each iteration
-I am invincible!!! when receiving a SIGTERM signal
-Make a copy of your 6-stop_me_if_you_can script, name it 67-stop_me_if_you_can, that kills the 7-highlander process instead of the 4-to_infinity_and_beyond one.
+Creates the file /var/run/myscript.pid containing its PID
+Displays To infinity and beyond indefinitely
+Displays I hate the kill command when receiving a SIGTERM signal
+Displays Y U no love me?! when receiving a SIGINT signal
+Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
